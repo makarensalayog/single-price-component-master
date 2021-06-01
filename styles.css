@@ -1,0 +1,141 @@
+@media (min-width: 375px) {
+body{
+  background-color: hsl(204, 43%, 93%);
+  color: white;
+  font-family: 'Karla';
+  margin:0;
+  font-size: .8rem;
+}
+
+/* containers */
+.container-fluid {
+  width:40%;
+  margin:7% auto;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 20px #A9A9A9;
+}
+
+.container-box1{
+  padding:40px;
+}
+
+/* headings */
+.big-heading{
+  font-size:1.3rem;
+  line-height: 2;
+  color:hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+
+.second-heading{
+  font-size:1rem;
+  line-height: 1.5;
+  color:hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+.title-caption{
+  line-height: 2;
+  color:hsl(218, 22%, 67%);
+  width:90%;
+}
+
+/* card section*/
+.card-title{
+  font-size:1rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color:hsl(204, 43%, 93%);
+  letter-spacing: 1px;
+}
+
+.price-section{
+background-color: hsl(179, 62%, 43%);
+padding:6% 6% 3%;
+border-radius: 0 0 0 10px;
+}
+
+.detail-section{
+  background-color: hsl(179, 50%, 53%);
+  padding:6% 6% 3%;
+  border-radius: 0 0 10px 0;
+}
+
+/* price section format*/
+.price{
+  display:inline;
+  width:50px;
+  font-weight: bold;
+}
+
+.price-text{
+  display:inline;
+  width:50px;
+  margin-left:10px;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+
+.price-caption{
+  margin-top:10px;
+  color:hsl(204, 43%, 93%);
+}
+
+.sign-up-button{
+  background-color:hsl(71, 73%, 54%);
+  color:white;
+  border:none;
+  border-radius:10px;
+  padding:5% 20%;
+  margin-top:10px;
+  width:100%;
+  font-weight: bold;
+}
+
+.detail-section-content{
+color:hsl(204, 43%, 93%);
+margin-top:20px;
+opacity: 0.9;
+}
+
+/* attribution */
+.attribution {
+  font-size: 11px; text-align: center;
+    color: #808080;
+  }
+
+  a:link {
+    color: hsl(71, 73%, 54%);
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: hsl(271, 36%, 24%);
+  }
+
+  a:hover {
+    color: hsl(179, 62%, 43%);
+  }
+
+  @media (max-width: 992px) {
+    .price-section{
+    border-radius: 0 0 0 0;
+    padding:6%;
+    }
+
+    .detail-section{
+      border-radius: 0 0 10px 10px;
+    }
+    .container-fluid {
+      width:80%;
+    }
+
+    .container-box1{
+      padding:25px 15px 20px;
+    }
+    .title-caption{
+      width:100%;
+    }
+  }
+}
